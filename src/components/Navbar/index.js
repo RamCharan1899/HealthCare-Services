@@ -50,7 +50,7 @@ function NavScrollExample() {
     return (
         <Navbar bg="primary" data-bs-theme="dark">
             <Container fluid>
-                <Navbar.Brand href="/"><h3>Health Services(Logo)</h3></Navbar.Brand>
+                <Navbar.Brand href="/HealthCare-Services/"><h3>Health Services(Logo)</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -62,11 +62,11 @@ function NavScrollExample() {
                         <Nav.Link href="/HealthCare-Services/#/Doctors_Dashboard" style={{ 'margin-left': "135px" }}>
                             <img src={dr_logo} alt="Dr" class="dr_logo" />Search Doctors</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/HealthCare-Services/#//VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
+                        <Nav.Link href="/HealthCare-Services/#/VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/HealthCare-Services/#//Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
+                        <Nav.Link href="/HealthCare-Services/#/Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/Lab_Tests"><img src={lt_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Lab Tests</Nav.Link>
+                        <Nav.Link href="/HealthCare-Services/#/Pharmacy/Lab_Tests"><img src={lt_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Lab Tests</Nav.Link>
 
                         {/* <NavDropdown title="Extra" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
