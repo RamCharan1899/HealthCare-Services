@@ -50,7 +50,7 @@ function NavScrollExample() {
     return (
         <Navbar bg="primary" data-bs-theme="dark">
             <Container fluid>
-                <Navbar.Brand href="/"><h3>Health Services(Rename)</h3></Navbar.Brand>
+                <Navbar.Brand href="/"><h3>Health Services(Logo)</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -59,12 +59,12 @@ function NavScrollExample() {
                         navbarScroll
                     >
 
-                        <Nav.Link href="/Doctors_Dashboard" style={{ 'margin-left': "135px" }}>
+                        <Nav.Link href="/HealthCare-Services/#/Doctors_Dashboard" style={{ 'margin-left': "135px" }}>
                             <img src={dr_logo} alt="Dr" class="dr_logo" />Search Doctors</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
+                        <Nav.Link href="/HealthCare-Services/#//VC_Doctors"><img src={vc_logo} alt="Dr" class="dr_logo" /> Video Consultations</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
-                        <Nav.Link href="/Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
+                        <Nav.Link href="/HealthCare-Services/#//Pharmacy"><img src={ph_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Pharmacy</Nav.Link>
                         <div class="vr" style={{ 'color': 'white' }}></div>
                         <Nav.Link href="/Lab_Tests"><img src={lt_logo} alt="Dr" class="dr_logo" style={{ "margin-right": '5px' }} /> Lab Tests</Nav.Link>
 
